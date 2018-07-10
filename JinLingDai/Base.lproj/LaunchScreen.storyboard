@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LOGO" translatesAutoresizingMaskIntoConstraints="NO" id="BER-C1-yEQ">
+                                <rect key="frame" x="157.5" y="140" width="60" height="60"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LOGO-2" translatesAutoresizingMaskIntoConstraints="NO" id="wft-HY-9rd">
+                                <rect key="frame" x="120" y="610" width="135" height="27"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.99999320507049561" green="0.99999344348907471" blue="0.999991774559021" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="BER-C1-yEQ" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="120" id="Bfe-cK-Zal"/>
+                            <constraint firstItem="BER-C1-yEQ" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="WRV-f7-bCO"/>
+                            <constraint firstItem="wft-HY-9rd" firstAttribute="centerX" secondItem="BER-C1-yEQ" secondAttribute="centerX" id="gbO-VG-vfs"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="wft-HY-9rd" secondAttribute="bottom" constant="30" id="hxz-Lp-5qC"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="LOGO" width="60" height="60"/>
+        <image name="LOGO-2" width="135" height="27"/>
+    </resources>
+</document>
